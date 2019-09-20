@@ -1,0 +1,57 @@
+// main: ../styles.less
+
+.reviews {
+  background: url('../../img/reviews/reviews-bg.jpg') center no-repeat;
+  background-size: cover;
+  padding: 6.25rem 0;
+}
+
+.reviews__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews__block {
+  width: 100%;
+  max-width: 770px;
+  text-align: center;
+  color: @primary-font-color;
+  background-color: fade(#000, 67%);
+  
+  padding: 5.125rem 4.625rem 6.4375rem;
+}
+
+.reviews__title {
+  color: @primary-font-color;
+  margin-bottom: 1.4375rem;
+}
+
+.reviews__img {
+  margin-bottom: .8125rem;
+}
+
+.reviews__desc {
+  color: #dde0df;
+  font: 700 1.5625rem / 1.8 @reviews-font;
+  margin-bottom: 2.5rem;
+  position: relative;
+
+
+  &:before {
+    position: absolute;
+    left: -48px;
+    top: -15px;
+
+    content: ",,";
+    display: block;
+    color: fade(#f2f4f4, 47%);
+    font: 5.375rem @reviews-font;
+
+    transform: rotate(-180deg);
+  }
+
+}
+
+.reviews__copy {
+  font: 1.125rem @btn-font;
+}

@@ -1,0 +1,44 @@
+// main: ../styles.less
+
+.ingredients {
+  background: url('../../img/ingredients/bg.jpg') center no-repeat;
+  background-size: cover;
+  padding: 6.25rem 0;
+} 
+
+.inner__ingredients {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ingredients__block {
+  max-width: 570px;
+  background-color: fade(#000, 67%);
+  color: @primary-font-color;
+  text-align: center;
+  padding: 5.1875rem 5rem 4rem;
+}
+
+.ingredients__title {
+  color: @primary-font-color;
+  margin-bottom: 1rem;
+}
+
+.ingredients__desc {
+  line-height: 1.5;
+  font-family: @btn-font;
+  padding: 1.875rem 0 4.375rem;
+}
+
+.ingredients__list {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients__item {
+  margin-right: 1.875rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}

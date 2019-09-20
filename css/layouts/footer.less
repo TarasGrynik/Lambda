@@ -1,0 +1,82 @@
+// main: ../styles.less
+
+.footer {
+  color: @primary-font-color;
+  padding: 3.75rem 4.375rem;
+  background-color: #191919;
+  text-align: center;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__about {
+  max-width: 345px;
+}
+
+.footer__title {
+  font: 1.3125rem @title-font;
+  margin-bottom: 1.3125rem;
+}
+
+.footer__decor {
+  margin-bottom: 1.4375rem;
+}
+
+.footer__desc {
+  line-height: 1.5;
+  font-family: @label-font;
+
+  &--main {
+    font-weight: 700;
+  }
+}
+
+.footer__open {
+  max-width: 199px;
+}
+
+.footer__card {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__location,
+.footer__open-hours {
+  font-family: @label-font;
+}
+
+.footer__open-hours {
+  display: block;
+  &--day {
+    font-weight: 700;
+  }
+}
+
+.footer--casual {
+  margin-bottom: .625rem;
+}
+
+.footer__weekend {
+  margin-bottom: 3.3125rem;
+}
+
+.footer__location {
+  display: block;
+  margin-bottom: .625rem;
+}
+
+.footer__socials {
+  padding-top: 3.5rem;
+}
+
+.footer__social-img {
+  fill: @primary-font-color;
+  transition: fill .2s linear;
+
+  &:hover {
+    fill: @menu-item-color;
+  }
+}
